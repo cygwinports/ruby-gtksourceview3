@@ -1,0 +1,11 @@
+inherit rubygem
+
+NAME="ruby-gtksourceview3"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby GtkSourceView 3.x bindings"
+DESCRIPTION="Ruby/GtkSourceView3 is a Ruby binding of gtksourceview-3.x."
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
+
+DEPS_PATH="/usr/lib/ruby/gems/${RUBY_VERSION}/gems/cairo-*/lib:/usr/lib/ruby/gems/${RUBY_VERSION}/gems/glib2-*/lib:/usr/lib/ruby/gems/${RUBY_VERSION}/gems/gtk3-*/lib"
