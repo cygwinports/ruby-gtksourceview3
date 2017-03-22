@@ -10,7 +10,7 @@ HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
 
 PKG_NAMES="${NAME} ${NAME}-doc"
 ruby_gtksourceview3_REQUIRES="girepository-GtkSource3.0"
-ruby_gtksourceview3_OBSOLETES="${NAME}-devel"
+ruby_gtksourceview3_OBSOLETES="${NAME}-devel ${NAME}-debuginfo"
 ruby_gtksourceview3_CONTENTS=${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
 ruby_gtksourceview3_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
 
