@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-gtksourceview3"
-VERSION=3.1.1
+VERSION=3.1.8
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby GtkSourceView 3.x bindings"
@@ -11,7 +11,7 @@ HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
 PKG_NAMES="${NAME} ${NAME}-doc"
 ruby_gtksourceview3_REQUIRES="girepository-GtkSource3.0"
 ruby_gtksourceview3_OBSOLETES="${NAME}-devel ${NAME}-debuginfo"
-ruby_gtksourceview3_CONTENTS=${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
+ruby_gtksourceview3_CONTENTS=${RUBYGEM_EXTDIR#/}" "${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
 ruby_gtksourceview3_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
 
 # we have to wait until the old archful ones are archived
